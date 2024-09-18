@@ -7,7 +7,7 @@ setup(
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',  # Include the content type
     author='Pearl',
-    author_email = 'pearl207@gmail.com'
+    author_email = 'pearl207@gmail.com',
     url='https://github.com/pearlpatel207/qtypi',  # Your project's URL
     packages=find_packages(),
     install_requires=['numpy'],
