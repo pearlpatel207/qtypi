@@ -1,8 +1,0 @@
-LICENSE
-README.md
-setup.py
-quantum_lib.egg-info/PKG-INFO
-quantum_lib.egg-info/SOURCES.txt
-quantum_lib.egg-info/dependency_links.txt
-quantum_lib.egg-info/requires.txt
-quantum_lib.egg-info/top_level.txt
