@@ -109,26 +109,6 @@ new_state = state.apply_gate(custom_gate)
 print("New State after applying custom gate:", new_state)
 ```
 
-### Creating the |+> State
-
-The #\(|+\rangle\) state is a superposition of the \(|0\rangle\) and \(|1\rangle\) states and can be created by applying the Hadamard gate to the \(|0\rangle\) state:
-
-```python
-from qtypi.quantum_state import QuantumState
-from qtypi.quantum_gates import QuantumGate
-
-# Create the |0> state
-state_zero = QuantumState([1, 0])
-
-# Apply the Hadamard gate to create the |+> state
-hadamard_gate = QuantumGate.hadamard()
-plus_state = state_zero.apply_gate(hadamard_gate)
-
-print("State |+>:", plus_state)
-```
-
-The expected output will be the state vector representing \(|+\rangle = \frac{1}{\sqrt{2}}(|0\rangle + |1\rangle)\).
-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
