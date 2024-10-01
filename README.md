@@ -111,7 +111,7 @@ print("New State after applying custom gate:", new_state)
 
 ### Creating the |+> State
 
-The \(|+\rangle\) state is a superposition of the \(|0\rangle\) and \(|1\rangle\) states and can be created by applying the Hadamard gate to the \(|0\rangle\) state:
+The #\(|+\rangle\) state is a superposition of the \(|0\rangle\) and \(|1\rangle\) states and can be created by applying the Hadamard gate to the \(|0\rangle\) state:
 
 ```python
 from qtypi.quantum_state import QuantumState
