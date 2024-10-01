@@ -1,4 +1,4 @@
-```markdown
+
 # qtypi
 
 `qtypi` is a Python library for performing quantum computations using linear algebra. It provides tools to create and manipulate quantum states and apply quantum gates.
@@ -132,4 +132,3 @@ The expected output will be the state vector representing \(|+\rangle = \frac{1}
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-```
